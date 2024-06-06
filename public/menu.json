@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Breakfast",
+    "items": [
+      {
+        "name": "Bread Basket",
+        "image": "/images/breakFast1.png",
+        "description": "Assortment of fresh baked fruit breads and muffins",
+        "price": "$5.50"
+      },
+      {
+        "name": "Honey Almond Granola with Fruits",
+        "image": "/images/breakFast2.png",
+        "description": "Natural cereal of honey toasted oats, raisins, almonds and dates",
+        "price": "$7.00"
+      },
+      {
+        "name": "Belgian Waffle",
+        "image": "/images/breakFast3.png",
+        "description": "Vanilla flavored batter with malted flour",
+        "price": "$7.50"
+      },
+      {
+        "name": "Scrambled eggs",
+        "image": "/images/breakFast4.png",
+        "description": "Scrambled eggs, roasted red pepper and garlic, with green onions",
+        "price": "$7.50"
+      },
+      {
+        "name": "Blueberry Pancakes",
+        "image": "/images/breakFast5.png",
+        "description": "With syrup, butter and lots of berries",
+        "price": "$8.50"
+      }
+    ]
+  },
+  {
+    "type": "Lunch",
+    "items": [
+      {
+        "name": "Coq au Vin",
+        "image": "/images/Lunch1.png",
+        "description": "Chicken braised with red wine, mushrooms, and bacon, served with pearl onions and carrots.",
+        "price": "$18.99"
+      },
+      {
+        "name": "Quiche Lorraine",
+        "image": "/images/Lunch2.png",
+        "description": "Savory tart filled with eggs, cream, bacon, and Gruyère cheese.",
+        "price": "$12.99"
+      },
+      {
+        "name": "Croque Monsieur",
+        "image": "/images/Lunch3.png",
+        "description": "Classic French ham and cheese sandwich topped with béchamel sauce and broiled to perfection.",
+        "price": "$14.99"
+      },
+      {
+        "name": "Ratatouille",
+        "image": "/images/Lunch4.png",
+        "description": "Provençal vegetable medley of eggplant, zucchini, bell peppers, and tomatoes, cooked in olive oil and herbs.",
+        "price": "$13.99"
+      },
+      {
+        "name": "Bouillabaisse",
+        "image": "/images/Lunch5.png",
+        "description": "Traditional fish stew from Marseille, made with a variety of fish, shellfish, tomatoes, and saffron.",
+        "price": "$21.99"
+      }
+    ]
+  },
+  {
+    "type": "Dinner",
+    "items": [
+      {
+        "name": "Boeuf Bourguignon",
+        "image": "/images/dinner1.png",
+        "description": "Tender beef stewed in red wine with carrots, onions, and garlic, served with potatoes.",
+        "price": "$22.99"
+      },
+      {
+        "name": "Duck Confit",
+        "image": "/images/dinner2.png",
+        "description": "Slow-cooked duck leg confit served with crispy skin, accompanied by roasted potatoes and green beans.",
+        "price": "$24.99"
+      },
+      {
+        "name": "Duck à l'Orange",
+        "image": "/images/dinner3.png",
+        "description": "Crispy duck breast with a sweet and tangy orange sauce, served with roasted vegetables.",
+        "price": "$26.99"
+      },
+      {
+        "name": "Beef Bourguignon",
+        "image": "/images/dinner4.png",
+        "description": "Rich and hearty beef stew braised in red wine with carrots, onions, and mushrooms, served with buttery mashed potatoes.",
+        "price": "$23.99"
+      },
+      {
+        "name": "Le Pot-au-feu",
+        "image": "/images/dinner5.png",
+        "description": "Ox meat cooked in a broth flavored with vegetables and aromatic plants. An ancestral dish of rural and humble origin.",
+        "price": "$19.99"
+      }
+    ]
+  },
+  {
+    "type": "Dessert",
+    "items": [
+      {
+        "name": "Crème Brûlée",
+        "image": "/images/dessert1.png",
+        "description": "A decadent vanilla custard topped with a layer of caramelized sugar, creating a delicate contrast of creamy sweetness and crunchy texture.",
+        "price": "$9.99"
+      },
+      {
+        "name": "Tarte Tatin",
+        "image": "/images/dessert2.png",
+        "description": "An upside-down caramelized apple tart with a flaky pastry crust, served warm with a scoop of vanilla ice cream.",
+        "price": "$7.99"
+      },
+      {
+        "name": "Éclair au Chocolat",
+        "image": "/images/dessert3.png",
+        "description": "A light and airy choux pastry filled with rich chocolate cream and topped with a smooth chocolate glaze.",
+        "price": "$5.99"
+      },
+      {
+        "name": "Crêpe Suzette",
+        "image": "/images/dessert4.png",
+        "description": "Delicate crêpes served with a tangy and sweet orange sauce, flambéed with Grand Marnier for a spectacular presentation.",
+        "price": "$8.99"
+      },
+      {
+        "name": "Profiteroles",
+        "image": "/images/dessert5.png",
+        "description": "Cream puffs filled with vanilla ice cream and drizzled with warm chocolate sauce, creating a delightful contrast of textures and temperatures.",
+        "price": "$6.99"
+      }
+    ]
+  }
+]
