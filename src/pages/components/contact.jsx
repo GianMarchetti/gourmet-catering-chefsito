@@ -1,4 +1,5 @@
 import { useState } from "react";
+import AnimatedInput from "./animatedInput";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -52,96 +53,67 @@ const Contact = () => {
         catering@catering.com, or you can send us a message here:
       </p>
       <form onSubmit={handleSubmit} className="my-2">
-        <label>
-          Name:
-          <p className="py-2">
-            <input
-              className="px-2 py-4 border-b w-full formInput"
-              type="text"
-              placeholder="Name"
-              required
-              name="Name"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-            />
-          </p>
-        </label>
+        <AnimatedInput
+          placeholder="Name"
+          className="px-2 py-4 border-b w-full formInput"
+          type="text"
+          required
+          name="Name"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />
 
-        <label>
-          Email:
-          <p className="py-2">
-            <input
-              className="px-2 py-4 border-b w-full formInput"
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
-            />
-          </p>
-        </label>
+        <AnimatedInput
+          placeholder="Email"
+          className="px-2 py-4 border-b w-full formInput"
+          type="email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+        />
 
-        <label>
-          Phone:
-          <p className="py-2">
-            <input
-              className="px-2 py-4 border-b w-full formInput"
-              type="tel"
-              placeholder="Phone"
-              value={phone}
-              onChange={(event) => setPhone(event.target.value)}
-            />
-          </p>
-        </label>
-
-        <label>
-          Date:
-          <p className="py-2">
-            <input
-              className="px-2 py-4 border-b w-full formInput"
-              type="datetime-local"
-              placeholder="Date and time"
-              required
-              name="date"
-              value={date}
-              onChange={(event) => setDate(event.target.value)}
-            />
-          </p>
-        </label>
-
-        <label>
-          People:
-          <p className="py-2">
-            <input
-              className="px-2 py-4 border-b w-full formInput"
-              type="number"
-              placeholder="How many people"
-              required
-              name="People"
-              value={peopleAmount}
-              onChange={(event) => setPeopleAmount(event.target.value)}
-            />
-          </p>
-        </label>
-        <label>
-          Message:
-          <p className="py-2">
-            <textarea
-              className="px-2 py-4 border-b w-full formInput"
-              type="text"
-              placeholder="Message \ Special requirements"
-              required
-              name="Message"
-              value={message}
-              onChange={(event) => setMessage(event.target.value)}
-            />
-          </p>
-        </label>
-
+        <AnimatedInput
+          placeholder="Phone"
+          className="px-2 py-4 border-b w-full formInput"
+          type="tel"
+          value={phone}
+          onChange={(event) => setPhone(event.target.value)}
+        />
+        
         <p className="py-2">
-          <button className="my-4 p-2 font-semibold" type="submit">
-            Send Message
-          </button>
+          <input
+            className="px-2 py-4 border-b w-full formInput"
+            type="datetime-local"
+            placeholder="Date and time"
+            required
+            name="date"
+            value={date}
+            onChange={(event) => setDate(event.target.value)}
+          />
         </p>
+
+        <AnimatedInput
+          placeholder="How many people"
+          className="px-2 py-4 border-b w-full formInput"
+          type="number"
+          required
+          name="People"
+          value={peopleAmount}
+          onChange={(event) => setPeopleAmount(event.target.value)}
+        />
+
+        <AnimatedInput
+          placeholder="Message \ Special requirements"
+          className="px-2 py-4 border-b w-full formInput"
+          type="text"
+          required
+          name="Message"
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
+        />
+
+          <button className="my-4 p-2 font-semibold btnSend" type="submit">
+            <span>Send Message</span>
+          </button>
       </form>
       {submitted ? (
         <p className="bg-green-500 w-fit p-2">
